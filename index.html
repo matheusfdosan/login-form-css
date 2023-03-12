@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Login Form CSS</title>
+  </head>
+  <body>
+    <div class="form-side">
+      <img src="images/logo.svg" alt="logo" />
+
+      <form action="#" method="post">
+        <h1>
+          <img src="images/log-in.svg" alt="log-in" />
+          Faça seu login
+        </h1>
+        <p>Entre com suas informações de cadastro.</p>
+
+        <label for="email-input">E-mail</label>
+        <div class="input-container email">
+          <img src="images/mail.svg" alt="mail" />
+          <input 
+            type="email"
+            id="email-input"
+            placeholder="Digite seu e-mail"
+          />
+        </div>
+
+        <label for="password-input">Senha</label>
+        <div class="input-container password">
+          <img src="images/lock.svg" alt="lock" />
+          <input 
+            type="password"
+            id="password-input"
+            placeholder="Digite sua senha"
+          />
+        </div>
+
+        <div class="account-options">
+          <label for="check">
+            <input type="checkbox" id="check" />Lembre-me
+          </label>
+
+          <p>Esqueci minha senha</p>
+        </div>
+
+        <button type="submit" class="submit-btn">Entrar</button>
+
+        <p class="sign-up">Não tem uma conta? <span> Registre-se </span></p>
+      </form>
+    </div>
+    <div class="img"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
