@@ -1,7 +1,7 @@
-# Desafio Login Form CSS by Rocketseat
+<h1 align="center"> Login Form CSS </h1>
 
 <p align="center">
-Neste desafio você vai criar um formulário de login.
+  Um formulário de login.
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Uma projeto bem bonito e responsivo. Para vê-lo, clique [aqui](https://matheusfdosan.github.io/desafio-login-form-css-rocketseat/).
+Uma projeto bem bonito e responsivo. Para vê-lo, clique [aqui](https://matheusfdosan.github.io/login-form-css/).
 
 ## 🔖 Layout
 
